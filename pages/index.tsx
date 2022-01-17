@@ -33,6 +33,8 @@ export default function Home() {
 
 export const getServerSideProps: GetServerSideProps = withSSRGuest( async (ctx) => {
   return {
-    props: {}
+    props: {
+      
+    }
   }
 });
